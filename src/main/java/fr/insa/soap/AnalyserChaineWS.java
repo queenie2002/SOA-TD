@@ -6,9 +6,9 @@ import javax.jws.WebService;
 
 @WebService(serviceName="analyzer")
 public class AnalyserChaineWS {
-
     @WebMethod(operationName="compare")
     public int analyser(@WebParam(name="chain") String chaine) {
         return chaine.length();
     }
 }
+
